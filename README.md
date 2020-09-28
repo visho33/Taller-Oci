@@ -22,7 +22,7 @@ Clases: Por definir
 * Semana 1: Entrada y Salida
 * Semana 2: Operaciones basicas
 * Semana 3: Bucles y Condicionales
-* Semana 4: Arreglos
+* Semana 4: Arreglos y Vectores
 * Semana 5: 
 * Semana 6: 
 * Semana 7: 
@@ -54,66 +54,21 @@ En programación competitiva el lenguaje más utilizado por lejos es C++. La OCI
  - **MUY IMPORTANTE**: **ANTES DE TOCAR EL TECLADO, ANTES DE ESCRIBIR LA PRIMERA LÍNEA DE CÓDIGO**, es sumamente importante estimar cuánto se va a demorar la estrategia/algoritmo que quiero programar. Nadie quiere desperdiciar su tiempo programando una solución que después es muy lenta y nos da TLE (Time Limit Exceeded). Es por esto que **siempre deben estimar la [complejidad computacional](https://en.wikipedia.org/wiki/Time_complexity)** de su algoritmo y **evaluarla en el caso borde más grande** (peor caso). Por ejemplo, si un problema depende de N donde 1 <= N <= 10^5 y mi algoritmo es cuadrático (complejidad = O(N^2)), entonces en el peor caso haré (10^5)^2 = 10^10 operaciones, y por ende según el punto anterior necesitaría **100 segundos** para correrlo. En cambio, si mi algoritmo tiene complejidad O(N\*log(N)) entonces en el peor caso sólo haré 10^5 * log(10^5) = 1.7 * 10^6 operaciones (aprox.), y por ende sólo necesitaría **0.017 segundos** (la nada misma) para correrlo. Entonces, si mi problema tiene un tiempo máximo de ejecución de 2 segundos, ¿qué algoritmo va a funcionar? Claramente el segundo.
  - Si van a usar mucha memoria, preocúpense de **no pasarse del límite de memoria permitido**. Por ejemplo si les dan 256MB de memoria, en bytes eso es 256 * 1024 * 1024 = 268435456 bytes, un int32 ocupa 4 bytes, así que como máximo podrían crear un arreglo de int32 de largo 67108864 = 6.7 * 10^7 aprox (o la mitad si usan un int64, un double, etc.). También podría acabárseles la memoria si hacen demasiadas llamadas recursivas [[1](https://codeforces.com/blog/entry/47003), [2](https://stackoverflow.com/a/11777585/2801404)].
  
-### Mensaje para Alumnos Nuevos
+### Mensaje para nuevos en programación
 
-Tranquil@s. Que no cunda el pánico. El curso puede parecer a primera vista intimidante pero realmente no es así. Primero que todo, este es un curso de 5 créditos, así que la carga de trabajo semanal será acorde a un curso de 5 créditos. En la práctica esto significa que si trabajan a conciencia, el mismo día viernes debiesen alcanzar a hacer todo o al menos la mayoría del trabajo mínimo exigido de la semana. En segundo lugar, con respecto a lenguajes de programación, hemos notado que muchos se sienten intimidados ante la posibilidad de tener que aprender C++. Queremos recordarles que usar C++ es **recomendado** pero **no es obligatorio**. Si lo desean, pueden usar Python y es perfectamente válido. Para más detalles, por favor leer el [comentario sobre lenguajes de programación](#sobre-lenguajes-de-programaci%C3%B3n). En tercer lugar, en este curso nunca les pediremos que resuelvan problemas demasiado difíciles para su nivel. Siempre nos preocupamos de incluir problemas con un nivel de dificultad asequible para los novatos. Y por último, [recuerden que siempre pueden contar con nuestra ayuda](#estoy-pegad-no-sé-resolver-un-problema-no-se-me-ocurre-no-sé-implementarlo-qué-puedo-hacer).
-
+Sé que puede ser díficil en un comienzo aprender a programar (también pasé por eso), sin embargo, es algo super divertido :D y gratificante, es muy placentero cuando las cosas funcionan bien.
 
 _________________________________
 
 # Recursos para Consultar
 
 ### General
-* Canales de Youtube con muchas explicaciones:
-  * Gaurav Sen: https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw
-  * WillianFiset: https://www.youtube.com/channel/UCD8yeTczadqdARzQUp29PJw
-  * Abdul Bari: https://www.youtube.com/channel/UCZCFT11CWBi3MHNlGf019nw
-  * Algorithms Live!: https://www.youtube.com/channel/UCBLr7ISa_YDy5qeATupf26w/
-  * Tushar Roy - Coding Made Simple: https://www.youtube.com/channel/UCZLJf_R2sWyUtXSKiKlyvAw
-  * Programación Competitiva CL:  https://www.youtube.com/channel/UCmVg7YyMS8H-65WCmkVHB9g/feed
-* Repositorios con muchos códigos de ejemplo (implementaciones de algoritmos y estructuras de datos típicos):
-  * Team Notebook (muy bueno y completo): [link](https://github.com/pin3da/Programming-contest/blob/master/codes/notebook.pdf)
-  * C++ Cheat Sheet for ACM ICPC : https://github.com/ntuorangejuice/cheat-sheet
-  * Stanford University ICPC Team Notebook: https://cs.stanford.edu/group/acm/SLPC/notebook.pdf
-  * Google Doc con muchos códigos (C++): https://docs.google.com/document/d/1rcex_saP4tExbbU62qGUjR3eenxOh-50i9Y45WtHkc4/edit
-  * Google Doc con Apuntes de Robinson Castro et al (C++): https://docs.google.com/document/d/1pan53PU9_PIrPPVyNrbfXIAU-B6YnIaSBcB9lP9j0jE/edit  
-  * Repo de Apuntes del team Caloventor en Dos (C++): https://github.com/mvpossum/eldiego
-  * Repo de Apuntes de Pablo Messina (C++): https://github.com/PabloMessina/Competitive-Programming-Material
-* Otras páginas con links a muchos recursos y material de estudio:
-  * CP-ALGORITHMS: https://cp-algorithms.com/
-  * Codeforces: An awesome list for competitive programming!: https://codeforces.com/blog/entry/23054
-     * All of the good tutorials found on codeforces: https://codeforces.com/blog/entry/57282
-  * Standford CS 97SI: Introduction to Programming Contests: http://web.stanford.edu/class/cs97si/
-  * GeeksForGeeks: HOW TO PREPARE FOR ACM ICPC: https://www.geeksforgeeks.org/how-to-prepare-for-acm-icpc/
-  * GeeksForGeeks: Top 10 Algorithms and Data Structures for Competitive Programming: https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/
-  * Sitio web del Taller de la U. de Chile: http://progcomp.cl/taller
-  * Techie Delight: Coding made easy: http://www.techiedelight.com/  
-  * Material Campamento 2015 progcomp.cl: http://campamento2015.progcomp.cl/material
-  * Material Campamento 2016 progcomp.cl: http://campamento2016.progcomp.cl/material
-  * Material Campamento 2017 progcomp.cl: http://campamento2017.progcomp.cl/material
-  * Material Campamento 2018 progcomp.cl: http://campamento2018.progcomp.cl/material
-* Libros con harto material de programación competitiva:
-  * Competitive Programmer's Handbook: https://www.cses.fi/book.pdf
-  * Competitive Programming 2: https://www.scribd.com/doc/155208844/Competitive-Programming-2
-  * Competitive Programming 3 (CP3): https://cpbook.net/
 
-### Soluciones de Regionales Latinoamericanas
-* Blogs con explicaciones:
-  * Blog CaloventorEnDos: http://caloventorendos.blogspot.cl
-  * Chocoblog: https://chococontest.wordpress.com/
-  * [Codeforces - ACM ICPC 2011 Latin America Finals](https://codeforces.com/blog/entry/3452)
-  * [Codeforces - ACM ICPC 2012 Latin America Finals](https://codeforces.com/blog/entry/5809)
-  * [Codeforces - ACM ICPC 2014 Latin America Finals](https://codeforces.com/blog/entry/14650)
-  * [Codeforces - ACM ICPC 2015 Latin America Finals](https://codeforces.com/blog/entry/21576)
-  * [Codeforces - ACM ICPC 2016 Latin America Finals](https://codeforces.com/blog/entry/48366)
-  * [Codeforces - ACM ICPC 2017 Latin America Finals](https://codeforces.com/blog/entry/55700)
-  * [Codeforces - ACM ICPC 2018 Latin America Finals](https://codeforces.com/blog/entry/63157)
-* Google Sheet con soluciones de las últimas regionales (work in progress): https://docs.google.com/spreadsheets/d/1F8aBV83xKPVFfq_A0EKhCa8qbjf0gKKg8puQF-rbonQ/
-* Inputs y outputs oficiales de regionales latam pasadas: http://maratona.ime.usp.br/antigas18.html
-
-### Soluciones, Inputs y Outputs oficiales de Regionales Norteamericanas
-* http://acmgnyr.org
-* http://cs.ecs.baylor.edu/~hamerly/icpc/
+* Libro excelente con el que yo aprendí: https://cses.fi/book/book.pdf
+* Libro también excelente y en español: 
+* Canal de youTube de la comunidad chilena progcomp: https://www.youtube.com/c/Programaci%C3%B3nCompetitivaCL/featured
+* Página de programación competitiva con muchos problemas:https://codeforces.com/
+* Problem-set con muchos problemas: https://cses.fi/problemset/
 
 ### Para aprender C++ (MUY RECOMENDADO)
  * INPUT / OUTPUT:
@@ -589,88 +544,3 @@ ___________________________________________
     * [cp-algorhtms: Mo's algorithm](https://cp-algorithms.com/data_structures/sqrt_decomposition.html#toc-tgt-4)
     * [geeksforgeeks: Mo's algorithm (query square root decomposition)](https://www.geeksforgeeks.org/mos-algorithm-query-square-root-decomposition-set-1-introduction/)
     * [geeksforgeeks: extended Mo's algorithm (O(1) time complexity)](https://www.geeksforgeeks.org/extended-mos-algorithm-o1-time-complexity/)
-_______________________________________________
-
-# Contests
-* Contest 1, Marzo 08, 10 días, Implementación & Backtracking, [link a **contest**](https://vjudge.net/contest/285945), [link a **explicaciones**](https://docs.google.com/document/d/1c6FljbO2lOPGZj6t9NaaOFe9K9LcztIbCjyuOpiE70k/edit?usp=sharing)
-  * **Puntos**: 4, 4, 4, 3, 3, 3, 2    **Puntaje Mínimo Esperado**: 4.4
-  * **códigos de ejemplo**: [A - 8 queens chess problem](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/UVA/750_8-Queens-Chess-Problem.cpp) [A - 8 Queens chess problem - version ignacio](https://github.com/ignaciohermosillacornejo/competitive_programming/blob/master/8_Queen_Cheess_Problem.cpp), [B - A problem of Backtracking](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/SPOJ/BTCK_A-problem-of-Backtracking.cpp) [B - A problem of Backtracking - versión Ignacio](https://github.com/ignaciohermosillacornejo/competitive_programming/blob/master/SPOJ/BTCK%20-%20A%20problem%20of%20Backtracking/BTCK%20-%20A%20problem%20of%20Backtracking.cpp), [C - Map Colouring](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/MapColouring.cpp), [D - Vitamins](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/Codeforces/1042B_Vitamins.cpp), [F - Adding Words](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/AddingWords.cpp), [G - Reversed Binary Numbers](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/ReversedBinaryNumbers.cpp).
-
-* Contest 2, Marzo 15, 10 días, Implementación & Backtracking, [link a **contest**](https://vjudge.net/contest/288151), [link a **explicaciones**](https://docs.google.com/document/d/1y4-okA-4KlmQfAs7-aHBikULGor1mLt5dxvCKgL2Ogc/)
-  * **enunciados**: [A](https://vjudge.net/problem/1162860/origin), [B](https://vjudge.net/problem/509134/origin), [C](https://vjudge.net/problem/52968/origin), [D](https://vjudge.net/problem/2280568/origin), [E](https://uva.onlinejudge.org/external/4/441.pdf), F([1](https://uva.onlinejudge.org/external/5/574.pdf),[2](https://icpcarchive.ecs.baylor.edu/external/53/5319.pdf)), [G](https://vjudge.net/problem/613719/origin)
-  * **Puntos**: 5, 4, 3, 4, 3, 4, 3    **Puntaje Mínimo Esperado**: 5.4
-  * **códigos de ejemplo**: [A - Tight Fit Sudoku](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/TightFitSudoku.cpp),		[B - All About That Base](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/AllAboutThatBase.cpp),		[C - ALL IZZ WELL](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/SPOJ/ALLIZWEL.cpp),
-[D - Zagrade](https://github.com/ignaciohermosillacornejo/competitive_programming/blob/master/Kattis/Zagrade/Zagrade.cpp) [D - Zagrade - version Pablo](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/Zagrade.cpp), [E - Lotto](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/UVA/441_Lotto.cpp), [F - Sum It Up](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/5319_SumItUp.cpp), [G - Pizza Hawaii](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/PizzaHawaii.cpp)
-
-* Contest 3, Marzo 22, 10 días, Implementación & Backtracking, [link a **contest**](https://vjudge.net/contest/289571), [link a **explicaciones**](https://docs.google.com/document/d/1IqP8cwuGTmsfBduOK4HHiSoMKvXhDdr58thltLdYEg0/edit?usp=sharing)
-  * **enunciados**: [A](https://vjudge.net/problem/14556/origin), [B](https://vjudge.net/problem/1162851/origin), [C](https://vjudge.net/problem/24139/origin), [D](https://vjudge.net/problem/680588/origin), [E](https://vjudge.net/problem/28532/origin), [F](https://vjudge.net/problem/19668/origin), [G](https://vjudge.net/problem/43047/origin), [H](https://vjudge.net/problem/812880/origin)
-    * Sobre el B - Magical Mystery Knight's Tour: si pasan 51/52 test cases está bien (Kattis tiene un tiempo muy estricto para el test case 52, si pasan los primeros 51 test cases y en el 52 les da TLE el problema igual está bueno).
-  * **Puntos**: 6, 7, 5, 5, 4, 3, 5, 3  **Puntaje Mínimo Esperado**: 5.4
-  * **códigos de ejemplo**: [A - Report Recovery](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/3658_ReportRecovery.cpp), [B - Magical Mystery Knight's Tour](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/MagicalMysterKnightsTour.cpp), [D - Association for Cool Machineries (Part 1)](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/AssociationForCoolMachineries(part1).cpp), E - Distributing Ballot Boxes: ([v1-priority_queue](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/5822_DistributingBallotBoxes.cpp), [v2-binsearch](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/5822_DistributingBallotBoxes_v2.cpp)), [F - Mapping the Swaps](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/UVA/331_MappingTheSwaps.cpp), [H - Touchscreen Keyboard](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/TouchscreenKeyboard.cpp)
-  
-* Contest 4, Marzo 29, 10 días, Binary Search, [link a **contest**](https://vjudge.net/contest/291141), [link a **explicaciones**](https://docs.google.com/document/d/12PdCr1fCv3uCrzu_nIEaZ6EjMQpxhSfWdn7Tta2GuJk/edit)
-  * **enunciados**: [A](https://vjudge.net/problem/1983901/origin),		[B](https://vjudge.net/problem/1983915/origin),		[C](https://vjudge.net/problem/21635/origin),		[D](https://vjudge.net/problem/27471/origin),		[E](https://vjudge.net/problem/32603/origin),		[F](https://vjudge.net/problem/89213/origin),		[G](https://vjudge.net/problem/344888/origin),		[H](https://vjudge.net/problem/687762/origin)
-  * **Puntos**: 2, 2, 5, 4, 5, 3, 4, 4  **Puntaje Mínimo Esperado**: 6.4
-  * **códigos de ejemplo**: [A - Busqueda Binaria](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/SPOJ/BBIN_BusquedaBinaria.cpp),		[B - Búsqueda Binaria 2](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/SPOJ/BBIN2_B%C3%BAsquedaBinaria2.cpp),		[C - Berland Collider](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/Codeforces/24E_BerlandCollider.cpp),	[D - Fill the Containers](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/UVA/11413_FillTheContainers.cpp),	[E - Electric Bill](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/4476_ElectricBill.cpp),		[F - Vanya and Lanterns](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/Codeforces/492B_VanyaAndLanterns.cpp), [G - Enduring Exodus](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/Codeforces/645C_EnduringExodus.cpp),		[H - The Meeting Place Cannot Be Changed](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/Codeforces/780B_TheMeetingPlaceCannotBeChanged.cpp)
-
-* Contest 5, Abril 04, 11 días, Binary Search, [link a **contest**](https://vjudge.net/contest/292283), [link a **explicaciones**](https://docs.google.com/document/d/1lWBleXlsS9xN0UT2Ke4mUlX5eiwp9PEXJt8gxFieM3g/edit)
-  * **enunciados**: [A](https://vjudge.net/problem/34983/origin),		[B](https://vjudge.net/problem/1929872/origin),		[C](https://vjudge.net/problem/139137/origin),		[D](https://vjudge.net/problem/1057369/origin),		[E](https://vjudge.net/problem/2225616/origin),		[F](https://vjudge.net/problem/827112/origin),		[G](https://vjudge.net/problem/2037788/origin),		[H](https://vjudge.net/problem/244517/origin)
-  * **Puntos**: 5, 5, 5, 4, 6, 3, 4, 6  **Puntaje Mínimo Esperado**: 5.6
-  * **códigos de ejemplo**: [A - Environment Protection](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/6135_EnvironmentProtection.cpp), [B - Nature reserve](https://github.com/ignaciohermosillacornejo/competitive_programming/blob/master/nature_reserve.cpp), [C - The Art of Dealing with ATM](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/Codeforces/524C_TheArtOfDealingWithATMs.cpp), [D - Freight Train](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/FreightTrain.cpp), [F - Need for Speed](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/NeedForSpeed.cpp), [H - Weakness and Poorness](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/Codeforces/579E_WeaknessAndPoorness.cpp)
-  
-* Contest 6, Abril 11, 11 días, Dynamic Programming (DP), [link a **contest**](https://vjudge.net/contest/293759), [link a **explicaciones**](https://docs.google.com/document/d/10ThVY2nNsZkppj7fOP3u8CoRrAkL519EVApUStaAf5c/edit)
-  * **enunciados**: [A](https://vjudge.net/problem/18381/origin),		[B](https://vjudge.net/problem/588845/origin),		[C](https://vjudge.net/problem/23734/origin),		[D](https://vjudge.net/problem/53356/origin),		[E](https://vjudge.net/problem/20886/origin),		[F](https://vjudge.net/problem/20931/origin),		[G](https://vjudge.net/problem/20930/origin),		[H](https://vjudge.net/problem/20929/origin)
-  * **Puntos**: 3, 3, 5, 4, 6, 4, 4, 6  **Puntaje Mínimo Esperado**: 6
-  * **códigos de ejemplo**: [A - Staircases](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/acm.timus.ru/1017_Staircases.cpp), [B - The Coin Change Problem](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/hackerrank/TheCoinChangeProblem.cpp), [E - Nested Dolls](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/SPOJ/MDOLLS_NestedDolls.cpp), [F - Scuba diver](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/SPOJ/SCUBADIV_ScubaDiver.cpp), [G - Mixtures](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/SPOJ/MIXTURES_Mixtures.cpp), [H - Card Sorting](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/SPOJ/MCARDS_CardSorting.cpp)
-  
-* Contest 7, Abril 18, 11 días, Dynamic Programming (DP), [link a **contest**](https://vjudge.net/contest/296015), [link a **explicaciones**](https://docs.google.com/document/d/1QuYmoixfoMGeOs8AImV0t0lEndgysknR8eX3gJQXpu8/edit)
-  * **enunciados**: [A](https://vjudge.net/problem/80113/origin),		[B](https://vjudge.net/problem/1284100/origin),		[C](https://vjudge.net/problem/47664/origin),		[D](https://vjudge.net/problem/21861/origin),		[E](https://vjudge.net/problem/25712/origin),		[F](https://vjudge.net/problem/20884/origin),		[G](https://vjudge.net/problem/47155/origin),		[H](https://vjudge.net/problem/1378602/origin)
-  * **Puntos**: 6, 7, 7, 5, 5, 4, 5, 4    **Puntaje Mínimo Esperado**: 5
-  * **códigos de ejemplo**: [B - Arranging Tiles](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/URI/ArrangingTiles.cpp), [C - Eleven](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/UVA/12672_Eleven.cpp), [D - Chess](https://github.com/mmunos/cp/tree/master/Z_trening/414%20-%20Chess), [E - Looking for Order](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/Codeforces/8C_LookingForOrder.cpp), [H - Enigma](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/8192_Enigma.cpp)
-  
-* Contest 8, Abril 25, 11 días, Greedy, [link a **contest**](https://vjudge.net/contest/297681), [link a **explicaciones**](https://docs.google.com/document/d/1rVzlaa4fW3SVvK86FsuhRwYnt2ZxwhtD0nodskgU2Fc/edit?usp=sharing)
-  * **enunciados**: [A](https://vjudge.net/problem/53114/origin),		[B](https://vjudge.net/problem/254404/origin),		[C](https://vjudge.net/problem/527241/origin),		[D](https://vjudge.net/problem/1263975/origin),		[E](https://vjudge.net/problem/908661/origin),		[F](https://vjudge.net/problem/1971708/origin),		[G](https://vjudge.net/problem/21533/origin),		[H](https://vjudge.net/problem/908042/origin)
-  * **Puntos**: 4, 4, 4, 3, 3, 4, 3, 3    **Puntaje Mínimo Esperado**: 5.4
-  * **códigos de ejemplo**: [C - Exams](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/Codeforces/732D_Exams.cpp)
- 
- * Contest 9, Mayo 02, 11 días, Grafos (BFS / DFS), [link a **contest**](https://vjudge.net/contest/298372), [link a **explicaciones**](https://docs.google.com/document/d/1LvIzS4kxBqM4v0tsTqdYN0FKlRM5G67bPyPUcTcp3ZY/edit)
-   * **enunciados**: [A](https://vjudge.net/problem/306223/origin),		[B](https://vjudge.net/problem/2163530/origin),		[C](https://vjudge.net/problem/283837/origin),		[D](https://vjudge.net/problem/1477149/origin),		[E](https://vjudge.net/problem/77099/origin),		[F](https://vjudge.net/problem/47669/origin),		[G](https://vjudge.net/problem/418793/origin),		[H](https://vjudge.net/problem/13068/origin)
-   * **Puntos**: 3, 4, 5, 5, 4, 6, 5, 4  **Puntaje Mínimo Esperado**: 5.6
-   * **códigos de ejemplo**: [A - The Labyrinth](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/Codeforces/616C_TheLabyrinth.cpp), [C - Exposing corruption](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/7207_ExposingCorruption.cpp), [E - Intrepid Climber (Python & Cpp)](https://github.com/ignaciohermosillacornejo/competitive_programming/tree/master/URI/Intrepid%20Climber/), [F - Join two kingdoms](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/URI/JoinTwoKingdoms.cpp), [H - Geophysics Prospection](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/4010_GeophysicsProspection.cpp) 
-
-* Contest 10, Mayo 09, 13 días, Grafos - shortest paths(dijkstra, bellman-ford, floyd-warshall), [link a **contest**](https://vjudge.net/contest/300689), [link a **explicaciones**](https://docs.google.com/document/d/1ieyUsYv_3lP1AYQ8vqvpcFcaG4qQtCxKnZHE5wCa1ck/edit)
-   * **enunciados**: [A](https://vjudge.net/problem/20817/origin),		[B](https://vjudge.net/problem/38280/origin),		[C](https://vjudge.net/problem/20795/origin),		[D](https://vjudge.net/problem/14550/origin),		[E](https://vjudge.net/problem/14038/origin),		[F](https://vjudge.net/problem/16798/origin),		[G](https://vjudge.net/problem/20716/origin),		[H](https://vjudge.net/problem/1165069/origin)
-   * **Puntos**: 4,	5,	4,	4,	5,	6,	5,	4  **Puntaje Mínimo Esperado**: 6.4
-   * **códigos de ejemplo**: [E - Almost Shortest Path](https://github.com/mmunos/cp/tree/master/live%20archive/2008%20Latin%20America/4210%20-%20Almost%20Shortest%20Path), [H - All Pairs Shortest Path](https://github.com/ignaciohermosillacornejo/competitive_programming/blob/master/Kattis/All%20Pairs%20Shortest%20Path/All%20Pairs%20Shortest%20Path.cpp)
-   
-* Contest 11, Mayo 16, 11 días, Grafos - shortest paths + toposort, [link a **contest**](https://vjudge.net/contest/301435), [link a **explicaciones**](https://docs.google.com/document/d/1TDdEJDrhs8NlISViE8ZEM-Wymeg5uFeoIm4b_fwCNGA/edit)
-   * **enunciados**: _pending_
-   * **Puntos**: 3,	5,	6,	3,	4,	4,	4  **Puntaje Mínimo Esperado**: 6
-   * **códigos de ejemplo**: [A - Wormholes](https://github.com/ignaciohermosillacornejo/competitive_programming/blob/master/Live%20Archive%20%26%20UVa/Wormholes/Wormholes.cpp), [B - Galactic Taxes](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/UVA/13010_GalacticTaxes.cpp), [C - Keep it Energized](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/7213_KeepItEnergized_v2.cpp), [E - Build Dependencies](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/BuildDependencies.cpp)
-   
- 
-* Contest 12, Mayo 23, 11 días, Números Primos, [link a **contest**](https://vjudge.net/contest/303565), [link a **explicaciones**](https://docs.google.com/document/d/1FftVrfQtqcBDtWdv2ZE1DfpmICeSbs-Fop27TBVSKU4/edit)
-   * **enunciados**: _pending_
-   * **Puntos**: 3, 4, 2, 8, 4, 4, 5, 4, 4  **Puntaje Mínimo Esperado**: 6
-   * **códigos de ejemplo**: [A - Prime Generator](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/SPOJ/PRIME1_PrimeGenerator.cpp), [B - Prime Intervals](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/SPOJ/PRINT_PrimeIntervals.cpp), [B - Prime Intervals Ignacio](https://github.com/ignaciohermosillacornejo/competitive_programming/blob/master/SPOJ/PRINT%20-%20Prime%20Intervals/PRINT%20-%20Prime%20Intervals.cpp), [C - Almost Prime](https://github.com/ignaciohermosillacornejo/competitive_programming/blob/master/Code%20Forces/Almost%20Prime/Almost%20Prime.cpp), [D - Prime Spiral](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/PrimeSpiral.cpp), [E - Prime Reduction](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/PrimeReduction.cpp), [H - Just in Time](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/URI/JustInTime.cpp), [I - Finding Primes](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/SPOJ/FINDPRM_FindingPrimes.cpp)
-   
-* Contest 13, Mayo 30, 11 días, Mix de Mate (gcd, modular arithmetics, binary exponentiaion, etc.), [link a **contest**](https://vjudge.net/contest/304342), link a **explicaciones**: _pending_
-   * **enunciados**: _pending_
-   * **Puntos**: 7, 4, 6, 3, 5, 4, 10, 4, 2  **Puntaje Mínimo Esperado**: 6
-   * **códigos de ejemplo**: [A - Yet Another Multiple Problem](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/SPOJ/MULTII_YetAnotherMultipleProblem.cpp), [E - Last Digit](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/4008_LastDigit.cpp), [G - Bases](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/UVA/12145_Bases.cpp), [H - Even Distribution](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/6825_EvenDistribution.cpp)
- 
-* Contest 14, Junio 06, 11 días, Conteo y combinatoria modular, [link a **contest**](https://vjudge.net/contest/305525), [link a **explicaciones**](https://docs.google.com/document/d/1vZpOS2OJgORY3rm3r8r4e-2vK1dSiKvj90dFeCNcMKs/edit)
-   * **enunciados**: _pending_
-   * **Puntos**: _pending_  **Puntaje Mínimo Esperado**: _pending_
-   * **códigos de ejemplo**: [B - Eleven](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/UVA/12672_Eleven.cpp), [E - Knights of the Round Table](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/6831_KnightsOfTheRoundTable.cpp), [H - Jumping Frog](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/URI/JumpingFrog.cpp)
-
-* Contest 15, Junio 13, 11 días, euclides extendido (gcdext) y teorema del resto chino (CRT), [link a **contest**](https://vjudge.net/contest/305759), [link a **explicaciones**](https://docs.google.com/document/d/16VCZix2gKmLkSNjKYckUNAQ8E3jAT8S8e1TsVDIsaSI/edit)
-   * **enunciados**: _pending_
-   * **Puntos**: _pending_  **Puntaje Mínimo Esperado**: _pending_
-   * **códigos de ejemplo**: [H - Chinese Remainder Theorem (non...)](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/kattis/generalchineseremainder.cpp)
-
-* Contest 16, Junio 20, 11 días, tutifruti, [link a **contest**](https://vjudge.net/contest/307302), link a **explicaciones**: _pending_
-   * **enunciados**: _pending_
-   * **Puntos**: _pending_  **Puntaje Mínimo Esperado**: _pending_
-   * **códigos de ejemplo**: [E - Height Map](https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/Solved%20problems/LiveArchive/7210_HeightMap.cpp)
-   
