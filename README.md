@@ -1,4 +1,4 @@
-# IIC2552 - Taller de Programación Olimpiada Chilena de Informática
+# Taller de Programación Olimpiada Chilena de Informática
 ## 2020
 
 # Índice
@@ -40,107 +40,31 @@
 
 En este taller aprenderás las técnicas y habilidades necesarias para resolver problemas algorítmicos de [programación competitiva](https://es.wikipedia.org/wiki/Usuario:Ltaravilse/Programaci%C3%B3n_competitiva) y poder participar en la [Olimpiada Chilena de Informatica](https://www.olimpiada-informatica.cl/) de este año.
 
-Sin embargo, las habilidades que adquirirás en este taller van mucho más allá que simplemente participar en la OCI. Aquí aprenderás a programar en C++, lo que te puede ayudar en muchos aspectos de tu vida (podrás hacer que tu computador trabaje para ti). Además, ejercitarás tu pensamiento lógico y mejorarás tu creatividad para abordar diferentes tipos de problemas. Además, programar es muy divertido (al menos para mí) y puede ser un buen pasatiempo durante la pandemia.
+Sin embargo, las habilidades que adquirirás en este taller van mucho más allá que simplemente participar en la OCI. Aquí aprenderás a programar en C++, lo que te puede ayudar en muchos aspectos de tu vida (podrás hacer que tu computador trabaje para ti). Además, ejercitarás tu pensamiento lógico y mejorarás tu creatividad para abordar diferentes tipos de problemas. Si deseas ingresar a una carrera científica, programar te proporciona notables ventajas durante tu desarrollo profesional (y de hecho las personas que han participado en la OCI se le ha hecho fácil su curso de programación universitaria). Pese a todas estas cosas positivas de la programación, muchas personas practicamos por pura diversión, siendo un excelente pasatiempo durante la pandemia. 
+
+!Recuerda unirte a los canales de comunicación (Discord y Whatsapp) para poder obtener los links de las clases!
 
 # Información Básica
+
 Discord:
 
 Whatsapp:
 
 Clases: Por definir
 
-# Cómo funciona el curso
+# Temario tentativo del curso
 
-## 1) Competencias Semanales
-
-Este curso es 100% práctico. La nota final dependerá de la resolución por parte del alumno de problemas de programación competitiva. Cada semana se publicará un *contest* (o competencia, en español). Los contests se caracterizan por lo siguiente:
-
-* Se publicarán en [vjudge.net](https://vjudge.net), un sitio web que permite crear competencias utilizando problemas obtenidos de múltiples jueces online, con un scoreboard que se actualiza en tiempo real a medida que los participantes resuelven problemas. Para competir es necesario que te crees una cuenta en [vjudge.net](https://vjudge.net) y posteriormente que te unas con dicha cuenta a los contests a medida que estos vayan siendo publicados. Para facilitarnos el registro de problemas resueltos, te pedimos por favor que registres el **nickname** de tu cuenta en el siguiente spreadsheet: [link](https://docs.google.com/spreadsheets/d/1FSRolgJukhPfEhVgEwG7SFk91D1FUwVQje0mkaNIGIQ/edit?usp=sharing).
-
-* Casi todas las competencias serán **individuales**, pero hacia el final del semestre habrán 1 o 2 competencias **grupales**. 
-
-* En el caso de competencias grupales, les está permitido armar equipos de un máximo de 3 alumn@s. Un detalle: como vjudge.net no permite crear equipos, los integrantes de cada equipo deberán acordar una cuenta en común y registrar dicha cuenta + los nombres de los integrantes en un spreadsheet que se les compartirá oportunamente.
-
-* En general los contests serán temáticos. Es decir, cada contest estará compuesto por problemas que se resuelven utilizando estrategias pertenecientes a una categoría o tema común (ej. fuerza bruta, geometría, grafos, strings, etc.). El tema del contest se avisará con anticipación junto con una recomendación de material de estudio que los alumnos podrán revisar antes de la clase.
-
-* El primer módulo de cada clase (14:00 - 15:30) será de cátedra. La idea es revisar contenidos relevantes para el contest antes de que este comience. Esto significa revisar la teoría, ver códigos de ejemplo y quizá explicar la solución de algún problema introductorio que aparecerá en el contest.
-
-* A partir del segundo módulo (15:30 en adelante) comenzará el contest. La idea es que el segundo y tercer módulo de la clase (15:30 - 18:30) los alumnos trabajen en sus computadores programando. Por esto se recomienda que cada uno traiga su laptop a la clase. Si no tienes laptop, por favor avisa al staff del curso con anticipación para poder coordinar laptops de repuesto.
-
-* Salvo en contest grupales, **cada alumn@ debe programar su propia solución**. Sin embargo, está permitido, y es más **te animamos** a que discutas ideas con tus compañeros y compañeras si es que te sientes complicad@ con algún problema que no sabes cómo resolver. Es más, si alguien quiere pasar a la pizarra ya sea a explicar o guiar una discusión de un problema, es **súper bienvenido**. Además, tanto el profesor como el ayudante estaremos disponibles toda la clase para que nos hagas consultas si lo necesitas. 
-
-* Los problemas de cada contest tendrán diferentes niveles de dificultad, y por lo tanto serás premiad@ con más o menos puntos según la dificultad de los problemas que resuelvas. Por ej. un problema fácil te podría dar 1 punto, mientras que un problema muy difícil te podría dar más de 4 o 5 puntos. Estos puntajes se mantendrán intencionalmente ocultos hasta el final de la clase :)
-   * UPDATE:  regalado (1), fácil (2), medio-fácil (3), medio (4), medio-difícil (5), difícil (6), muy difícil (7), **demasiado** difícil (8 o más)
-
-* En general los contests tendrán una duración de un poco más de una semana (9 o 10 días), lo cual implica que durante los últimos días habrá algo de traslapo con el contest de la siguiente semana. No obstante, con el fin de que se acostumbren a programar contra reloj, habrá una penalización por resolver problemas pasado un cierto horario. En concreto, cada problema resuelto entre las 15:30 y las 23:59 del día que comenzó el contest proporcionará su puntaje original. En cambio, problemas que se resuelvan pasadas las 23:59 serán penalizados por un factor de 0.8. Es decir, _puntaje_tarde_ = _puntaje_original_ * 0.8
-
-* Al final del semestre habrá un contest de repechaje. Este contest tendrá muchos problemas y durará hasta la fecha del cierre de notas. Sin embargo, el puntaje de estos problemas será penalizado con un factor de 0.5. Es decir, _puntaje_repechaje_ = _puntaje_original_ * 0.5. Por lo tanto, el consejo obvio es resolver problemas periódicamente de forma responsable, para no tener que trabajar el doble en el contest de repechaje :)
-
-## 2) Asistencia
-
-El curso es con **asistencia reprobatoria**. Los alumnos que registren una asistencia al final del semestre inferior a 65% **reprobarán el curso**. Cada clase se pasará lista. Aunque no es necesario que te quedes los 3 módulos, con que vengas al menos a 1 módulo es suficiente para quedar presente.
-
-## 3) Bonuses
-
-Además de las competencias semanales, existen varias formas de obtener décimas de bonus que se sumarán directamente a tu nota final:
-
-* __BONUS EXPLICACIÓN PROBLEMA__ (individual): Este bonus permite obtener hasta un máximo de 2 décimas por explicación. ¿En qué consiste? Cada semana, junto a cada contest se publicará un google doc que será compartido con todos (todos podrán editarlo). La idea de estos google docs es que todos (alumnos y staff) colaboremos en la redacción de explicaciones de las soluciones de los problemas, armando una suerte de "wikipedia" de soluciones. ¿Cómo obtener este bonus?:  
-  * Para obtener este bonus el primer requisito es haber resuelto el problema que quieres explicar (no puedes explicar un problema que no has resuelto todavía).
-  * El segundo requisito es redactar la explicación **ANTES** que se acabe el contest (para que le sirva a alguien)
-  * Debes redactar una explicación entendible de la estrategia con la cual resolviste el problema. Puedes agregar dibujos, imágenes, fórmulas, ecuaciones, etc. si crees que hará tu explicación más fácil de entender.
-  * Opcionalmente, puedes incluir un link al código de tu solución (por ej. hosteado en un repositorio público en GitHub) al final de tu explicación.
-  * Por supueto, no olvides incluir tu nombre y apellido al final de tu explicación para que todos sepan quién lo escribió.
-  * Cuando tengas tu explicación lista, debes avisar por medio del Telegram del curso que has agregado una explicación.
-  * La cantidad de décimas que recibas dependerá de varios factores, a saber:
-    * La dificultad del problema resuelto
-    * La calidad de la explicación (lo ideal: una explicación muy clara pero concisa)
-    * Si tu explicación es realmente un aporte (en caso de que alguien más ya haya escrito una explicación para el mismo problema)
-    * Si tu explicación incluye un análisis / estimación de la complejidad computacional del algoritmo (por qué no da [TLE](https://www.geeksforgeeks.org/overcome-time-limit-exceedtle/)?)
-    * Si es que agregaste un link a tu solución en código
-      * la calidad de este código (si está ordenado, si está razonablemente comentado)
-      * **Si tu código está en C++ (preferiblemente C++11)**. Sabemos que la mayoría se siente más comoda programando en Python, por lo que programar en C++ requiere (al menos al principio) un esfuerzo adicional. Aquellas personas que escriban su código en C++ y lo compartan al final de su explicación tendrán más décimas, como recompensa a su esfuerzo ([tips para programar en C++/C++11](#tips-para-implementación-con-c))
-  
-* __BONUS RPC__ (grupal): Cada cierto tiempo la [Red de Programación Competitiva (RPC)](http://redprogramacioncompetitiva.com/) organiza competencias de entrenamiento. El calendario y registro para estas competencias se encuentran acá: http://registro.redprogramacioncompetitiva.com/contests, y los scoreboards de las competencias pasadas se pueden encontrar acá: http://redprogramacioncompetitiva.com/Contest. Nótese que se trata de un **bonus grupal**, por ende para obtener este bonus deben:
-  * Registrarse en una competencia en grupos de 2 o 3 alumn@s.
-  * Participar en la competencia
-  * Mandar una foto del grupo con todos sus integrantes juntos frente a un mismo computador (sí, la idea es que se junten físicamente usando un solo computador, [como en este ejemplo](https://youtu.be/BZo23gj9ksk?t=4237)).
-  * Al terminar la competencia, deben mandar el link al scoreboard final de la competencia RPC en que participaron.
-  * El bonus se calculará como 6 * (X/N) décimas, donde X = problemas resueltos por el grupo, N = problemas resueltos por el equipo que quedó en primer lugar. Las 6 * (X/N) décimas obtenidas se sumarán directamente a su nota final.
-
-* __BONUS Codeforces__ (individual): Cada cierto tiempo [Codeforces](http://codeforces.com/) organiza competencias individuales, que generalmente duran alrededor de 2 horas, con problemas de diferentes niveles de dificultad. Si se registran en Codeforces, el sitio les debería ir avisando por email sobre las próximas competencias. O bien, pueden revisar el [siguiente calendario](http://codeforces.com/calendar). Para obtener este bonus deben:
-  * Registrarse en Codeforces.
-  * Participar en una competencia.
-  * Al final de la competencia avisarnos en qué competencia participaron (por ej. mandar el link a su perfil de Codeforces).
-  * El bonus se calculará como 4 * (X/N) décimas, donde X = problemas resueltos por el alumno, N = problemas resueltos por la persona que quedó en primer lugar. Las 4 * (X/N) décimas obtenidas se sumarán directamente a su nota final.
-
-# Cálculo de la Nota Final
-La nota final del curso se calculará de la siguiente manera:
-* Sea X_temprano = cantidad total de puntos por problemas resueltos entre las 15:30 y las 23:59
-* Sea X_tarde = cantidad total de puntos por problemas resueltos pasadas las 23:59
-* Sea X_repechaje = cantidad total de puntos por problemas en el contest de repechaje
-* Luego, se obtiene X_final = X_temprano + 0.8 * X_tarde + 0.5 * X_repechaje
-* Sea E = cantidad mínima de puntos esperados al final del semestre
-* Así, se obtiene una nota preliminar
-   * Nota_v1 = 1 + 6 * min(X_final/E, 1)
-* Sin embargo, luego se bajará la escala del curso, es decir, si ningún alumno alcanzó el 7, el alumno con mayor nota quedará con 7 (siempre y cuando la escala baje "poco" - i.e. habrá un límite para bajar la escala con el fin de desincentivar posibles conspiraciones).
-   * Nota_v2 = aplicar_escala_reducida(Nota_v1)
-* Finalmente, se aplicarán las décimas de bonus:
-   * Nota_v3 = Nota_v2 + BONUS EXPLICACIÓN PROBLEMA + BONUS RPC + BONUS Codeforces
-* Todo lo anterior se encuentra formalizado en el [spreadsheet de notas y asistencia](https://docs.google.com/spreadsheets/d/13NJgv8usjIq8LeWcR_ctjFQHK_Wm9TejJNGIuKvI0Gc/edit?usp=sharing)
-
-# Temario tentativo del Semestre
-
-Individual
-* Implementación, Fuerza Bruta, Backtracking (3 semanas)
-* Binary Search (2 semanas)
-* DP básico (2 semanas)
-* Algoritmos Greedy (1 semana)
-* Grafos básico (3 semanas)
-* Matemática (3 semanas)
-* Geometría básica (1 semana)
-
-Grupal
-* Tutifruti (de todo, resto del semestre)
+* Semana 1: 
+* Semana 2: 
+* Semana 3: 
+* Semana 4: 
+* Semana 5: 
+* Semana 6: 
+* Semana 7: 
+* Semana 8: 
+* Semana 9: 
+* Semana 10: 
+* Semana 11: 
 
 # Estoy pegad@, no sé resolver un problema, no se me ocurre, no sé implementarlo, ¿qué puedo hacer?
 En programación competitiva es normal encontrarse con problemas fuera de nuestra zona de comfort, problemas que nos superan, que nos frustran y que inclusive llegan hasta deprimirnos. Problemas que nos hacen decir ["Oh, y ahora quién podrá .. ayudarme?"](https://www.youtube.com/watch?v=VQAonx_tUjM). Para esos programadores y programadoras desamparad@s hay buenas noticias: ¡existen muchas formas de recibir ayuda!
@@ -153,24 +77,10 @@ Sin embargo, sabemos que la timidez es un problema y no tod@s se sienten cómod@
  * **La página del curso** (i.e. este archivo que estás leyendo ahora), y en general, **internet**: Si te gusta más estudiar por cuenta propia, más abajo en esta página encontrarás mucho material de estudio disponible sobre distintos temas. Aconsejamos ir consultando estos recursos a medida que vayamos viendo estos temas en el taller. Por supuesto, también está disponible internet. Pero de nuevo, por favor hagan un uso [ético](#reglas-ética) de estos recursos.
 
 
-# Reglas (Ética)
-Puedes hacer uso de recursos en línea al resolver problemas. Esto incluye documentación de tu lenguaje de programación, descripciones de algoritmos, implementaciones estándar de ciertos algoritmos y estructuras de datos como referencia, wikipedia, youtube, libros, tutoriales, etc. En caso de **desesperación**, está incluso permitido consultar soluciones de ejemplo. Sin embargo, **LA COPIA DESCARADA DE SOLUCIONES AJENAS** está terminantemente **PROHIBIDA**. Para evitar esto, nuestra recomendación al enfrentar problemas es la siguiente:
-
-1) Primero intenta resolver los problemas por ti mism@, trata de no usar ningún recurso externo excepto por quizá documentación del lenguaje de programación que estás usando (por ej. si es que se te olvidó cómo se usaba cierta cosa de la librería estándar)
-2) Si un problema está muy difícil, intenta cambiarte a otro problema más fácil (puedes ver los problemas más resueltos en el scoreboard, probablemente son los más fáciles).
-3) Eventualmente si llegas a un punto en que te sientes pegad@ con todos los problemas que quedan, entonces es tiempo de pedir ayuda. Durante la clase te invitamos a discutir los problemas con otros compañer@s o con el staff. Fuera de la clase, puedes leer las explicaciones que vayamos subiendo a los google docs o bien puedes hacer preguntas en el Telegram del curso.
-4) Si lo anterior no es suficiente, puedes googlear explicaciones teóricas (palabras) en internet. También puedes consultar material de estudio, códigos de estructuras de datos y algoritmos estándar, etc. Si haces esto, por favor **incluye las referencias (links) en tu código**, explicando qué fuentes consultaste y en qué te ayudaron.
-5) Si las explicaciones teóricas y recursos estándar de referencia no son suficientes, como medida de **desesperación** y **último recurso** te está éticamente permitido mirar soluciones ajenas de ejemplo. Sin embargo, **por ningún motivo hagas copy-paste**. Lo que debes hacer es tratar de entender el código y sacar ideas a partir de él que te permitan programar tu propia solución. El objetivo es que aprendas. Si haces copy-paste, ¿estarás aprendiendo algo?
-6) Finalmente, ten presente que vjudge.net le otorga al autor de un contest acceso a las soluciones de los participantes ... Sí, podemos ver tu código :). Si alguien [misteriosamente](https://youtu.be/HQoRXhS7vlU) resuelve un problema difícil, tenga la seguridad de que con probabilidad muy alta su código será examinado.
-
-Si llegamos a descubrir una copia, el  **castigo consistirá en lo siguiente**:
-1) Primera copia: nota_final = max(min(nota_v3, 7) - 3, 1)
-2) Segunda copia: nota_final = 1 + causal de eliminación
-
 # Comentarios Adicionales
 
 ### Sobre lenguajes de programación
-En programación competitiva el lenguaje más utilizado por lejos es C++ (y dentro de C++ generalmente se usa de C++11 para arriba). En segundo lugar se encuentra Java. [Y hace muy poco se comenzó a utilizar también Python](https://www.quora.com/Can-Python-be-used-in-ACM-ICPC). Sin embargo, lamentablemente la mayoría de los jueces online (los servidores que tienen los enunciados de los problemas y ejecutan los códigos enviados por la gente) están calibrados generalmente para aceptar soluciones en C++, y a veces pasa que las soluciones en Python fallan con el famoso [Time Limit Exceeded (TLE)](https://www.geeksforgeeks.org/overcome-time-limit-exceedtle/), debido a que Python por ser un lenguaje interpretado se ejecuta más lento que lenguajes compilados a código de máquina como C++. Además, la mayoría de los códigos de ejemplo disponibles en internet para progcomp están en C++ o quizá Java. Por este motivo, el consejo típico es aprender C++. Si te motivas a seguir este consejo, más abajo puedes encontrar [material introductorio para aprender C++](#para-aprender-c-muy-recomendado) y [tips de implementación en C++ para progcomp](#tips-para-implementación-con-c). Dicho esto, que esto por favor no se malinterprete como que usar C++ es una obligación. No, no. Si ustedes quieren, pueden usar Python, no hay ningún problema. De hecho en muchos problemas las restricciones de tiempo son suficientemente holgadas y usar Python es perfectamente válido. El objetivo de este comentario es simplemente hacerles concientes de que al usar Python existe cierto riesgo de TLE por jueces "pesados" con restricciones de tiempo muy estrictas, y también que C++ es por lejos el lenguaje más popular en programación competitiva. Si deciden aprender C++, nuestro consejo es que vayan aprendiendo el lenguaje poco a poco, sin estresarse. Por ejemplo pueden ir intercalando entre C++ y Python. O pueden programar una solución en Python y después traducirla a C++, etc. Además siempre estaremos subiendo ejemplos de soluciones en C++, y tanto el profesor como el ayudante estaremos a su servicio para que nos hagan todas las consultas que quieran.
+En programación competitiva el lenguaje más utilizado por lejos es C++. En segundo lugar se encuentra Java. [Y hace muy poco se comenzó a utilizar también Python](https://www.quora.com/Can-Python-be-used-in-ACM-ICPC). Sin embargo, lamentablemente la mayoría de los jueces online (los servidores que tienen los enunciados de los problemas y ejecutan los códigos enviados por la gente) están calibrados generalmente para aceptar soluciones en C++, y a veces pasa que las soluciones en Python fallan con el famoso [Time Limit Exceeded (TLE)](https://www.geeksforgeeks.org/overcome-time-limit-exceedtle/), debido a que Python por ser un lenguaje interpretado se ejecuta más lento que lenguajes compilados a código de máquina como C++. Además, la mayoría de los códigos de ejemplo disponibles en internet para progcomp están en C++ o quizá Java. Por este motivo, el consejo típico es aprender C++. Si te motivas a seguir este consejo, más abajo puedes encontrar [material introductorio para aprender C++](#para-aprender-c-muy-recomendado) y [tips de implementación en C++ para progcomp](#tips-para-implementación-con-c). Dicho esto, que esto por favor no se malinterprete como que usar C++ es una obligación. No, no. Si ustedes quieren, pueden usar Python, no hay ningún problema. De hecho en muchos problemas las restricciones de tiempo son suficientemente holgadas y usar Python es perfectamente válido. El objetivo de este comentario es simplemente hacerles concientes de que al usar Python existe cierto riesgo de TLE por jueces "pesados" con restricciones de tiempo muy estrictas, y también que C++ es por lejos el lenguaje más popular en programación competitiva. Si deciden aprender C++, nuestro consejo es que vayan aprendiendo el lenguaje poco a poco, sin estresarse. Por ejemplo pueden ir intercalando entre C++ y Python. O pueden programar una solución en Python y después traducirla a C++, etc. Además siempre estaremos subiendo ejemplos de soluciones en C++, y tanto el profesor como el ayudante estaremos a su servicio para que nos hagan todas las consultas que quieran.
 
 ### Sobre restricciones de tiempo y memoria en programación competitiva
  - En la ICPC y en la mayoría de los jueces online de entrenamiento los problemas tienen límites de tiempo (ej. 3 segundos) y memoria (ej. 256 MB). Esto significa que soluciones muy lentas o soluciones que requieren anotar demasiadas cosas **no funcionarán**.
