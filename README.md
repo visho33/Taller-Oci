@@ -19,10 +19,10 @@ Clases: Por definir
 
 # Temario tentativo del curso
 
-* Semana 1: 
-* Semana 2: 
-* Semana 3: 
-* Semana 4: 
+* Semana 1: Entrada y Salida
+* Semana 2: Operaciones basicas
+* Semana 3: Bucles y Condicionales
+* Semana 4: Arreglos
 * Semana 5: 
 * Semana 6: 
 * Semana 7: 
