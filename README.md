@@ -85,6 +85,9 @@ __________________________________________
 ### Busqueda Binaria:
  * General Ideas: 
 
+### Recursividad:
+ *
+
 ### Grafos:
  * BFS:
   *
