@@ -70,51 +70,11 @@ _________________________________
 * Página de programación competitiva con muchos problemas:https://codeforces.com/
 * Problem-set con muchos problemas: https://cses.fi/problemset/
 
-### Para aprender C++ (MUY RECOMENDADO)
- * INPUT / OUTPUT:
-   * Yet again on C++ input/output: http://codeforces.com/blog/entry/5217
-   * ¿Qué es mejor para leer input / imprimir output? cin/cout vs printf/scanf: http://www.cplusplus.com/forum/beginner/34165/
- * Documentación Oficial de C++: http://www.cplusplus.com/reference/ 
- * C++ Tutorial (SOLO LEARN: EVERYONE CAN CODE): https://www.sololearn.com/Course/CPlusPlus/
- * LearnCpp: http://www.learncpp.com/
- * Intro a C++: https://youtu.be/pqWsOsfGKA0
- * Intro a la Programación Competitiva en C++: https://youtu.be/zTUJFG34Tyw
- * Estructuras básicas en C++: https://youtu.be/OldL5e5eGmY
- * C++ Programming Video Tutorials For Beginners [ Complete Series ]: https://www.youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C 
- * C++ Cheat Sheets & Tricks:
-   * C++ Cheat Sheet for ACM ICPC : https://github.com/ntuorangejuice/cheat-sheet
-     * Aquí pueden encontrar un C++ Solution Template (código que uno siempre escribe al comenzar una solución) + MUCHO MUCHO más :)
-   * C++ STL cheatsheet for competitive programming: https://gist.github.com/satwikkansal/c959e89161cc60db16b412233177feab
-   * C++ Tricks: https://codeforces.com/blog/entry/15643
-   * C++ tricks for competitive programming (for C++ 11): https://www.geeksforgeeks.org/c-tricks-competitive-programming-c-11/
-   * C++ Cheat Sheet de Pablo Messina: https://github.com/PabloMessina/Competitive-Programming-Material/blob/master/c%2B%2B_cheat_sheet.cpp
- * Instalando y corriendo C++:
-   * Windows:
-     * http://www.mingw.org/Welcome_to_MinGW_org
-     * https://www.quora.com/How-do-I-compile-a-C++-program-on-a-Windows-PC-in-CMD
-   * Ubuntu:
-     * http://askubuntu.com/questions/348654/how-to-install-g-compiler
-     * http://askubuntu.com/questions/61408/what-is-a-command-to-compile-and-run-c-programs
-   * Mac:
-     * https://www.quora.com/What-is-the-best-FREE-C-C++-compiler-for-Mac-OS
-     * http://stackoverflow.com/questions/9148488/how-do-i-compile-c-with-clang
- * Ejemplo de secuencia de pasos para resolver un problema en C++ en Windows usando la terminal (en Linux/Mac es bien parecido):
-    * Crear un archivo example.cpp
-    * Escribir un código de C++ válido y guardar.
-    * Abrir una terminal y navegar a la carpeta donde está el archivo.
-    * Opción 1:
-      * En la terminal, compilar y ejecutar con el comando: ```g++ -std=c++11 example.cpp && a.exe```
-      * Escribir el input directamente en la terminal
-      * El output irá apareciendo poco a poco en la terminal (intercalado con el input)
-    * Opción 2:      
-      * Crear un archivo en la carpeta donde están parados llamado input.txt, copiar y pegar el input ahí y guardar.
-      * En la terminal, compilar y ejecutar con el comando: ```g++ -std=c++11 example.cpp && a.exe < input.txt```
-      * el output aparecerá en la misma terminal
-    * Opción 3:
-      * Crear un archivo en la carpeta donde están parados llamado input.txt, copiar y pegar el input ahí y guardar.
-      * En la terminal, compilar y ejecutar con el comando: ```g++ -std=c++11 example.cpp && a.exe < input.txt > output.txt```
-      * el output quedará guardado en el archivo output.txt
-
+### Aprender C++
+ Yo uso el programa Dev-C++, hay muchos otros igual de válidos (codeblocks por ej) pero dejo el link de descarga del que uso yo 
+ * Descargar Dev-C++: https://sourceforge.net/projects/orwelldevcpp/files/latest/download
+ 
+ Yo aprendí lo básico de C++ con la aplicación para moviles "SoloLearn", la recomiendo mucho.
 ___________________________________________
 ## Material para Temas Específicos
 
