@@ -1,41 +1,6 @@
 # Taller de Programación Olimpiada Chilena de Informática
 ## 2020
 
-# Índice
-* [Introducción](#introducci%C3%B3n)
-* [Información Básica](#informaci%C3%B3n-b%C3%A1sica)
-* [¿Cómo funciona el curso?](#c%C3%B3mo-funciona-el-curso)
-  * [Competencias Semanales](#1-competencias-semanales)
-  * [Asistencia](#2-asistencia)
-  * [Bonuses](#3-bonuses)
-* [Cálculo de la Nota Final](#c%C3%A1lculo-de-la-nota-final)
-* [Temario tentativo del Semestre](#temario-tentativo-del-semestre)
-* [Estoy pegad@, no sé resolver un problema, no se me ocurre, no sé implementarlo, ¿qué puedo hacer?](#estoy-pegad-no-sé-resolver-un-problema-no-se-me-ocurre-no-sé-implementarlo-qué-puedo-hacer)
-* [**Reglas (Ética)**](#reglas-%C3%A9tica) <<<<<<<<<<<<<<<<<<<<<<<<<<<<< **TODOS** LEER ESTO POR FAVOR!!
-* [Comentarios Adicionales](#comentarios-adicionales)
-  * [Sobre lenguajes de programación](#sobre-lenguajes-de-programaci%C3%B3n)
-  * [Sobre restricciones de tiempo y memoria en programación competitiva](#sobre-restricciones-de-tiempo-y-memoria-en-programaci%C3%B3n-competitiva)
-  * [**Mensaje para Alumnos Nuevos**](#mensaje-para-alumnos-nuevos) <<<<<<<< **NOVATOS** RECUERDEN LEER ESTO
-* [Recursos para consultar](#recursos-para-consultar)
-  * [General](#general)
-  * [Soluciones Regionales Latinoamericanas](#soluciones-de-regionales-latinoamericanas)
-  * [Soluciones, Inputs y Outputs oficiales de Regionales Norteamericanas](#soluciones-inputs-y-outputs-oficiales-de-regionales-norteamericanas)
-  * [Para aprender C++ (MUY RECOMENDADO)](#para-aprender-c-muy-recomendado)
-  * [Material para Temas Específicos](#material-para-temas-espec%C3%ADficos)
-    * [Tricks para problemas Ad-Hoc](#tricks-para-problemas-ad-hoc)
-    * [Tips para implementación con C++](#tips-para-implementaci%C3%B3n-con-c)
-    * [Backtracking](#backtracking)
-    * [Binary & Ternary Search](#search)
-    * [Dynamic Programming (DP)](#dynamic-programming-dp)
-    * [Greedy](#greedy)
-    * [Graphs](#graphs)
-    * [Data Structures](#data-structures)
-    * [Strings](#strings)
-    * [Mathematics](#mathematics)
-    * [Geometry](#geometry)
-    * [Square Root Decomposition](#square-root-decomposition)
-* [Contests](#contests)
-
 # Introducción
 
 En este taller aprenderás las técnicas y habilidades necesarias para resolver problemas algorítmicos de [programación competitiva](https://es.wikipedia.org/wiki/Usuario:Ltaravilse/Programaci%C3%B3n_competitiva) y poder participar en la [Olimpiada Chilena de Informatica](https://www.olimpiada-informatica.cl/) de este año.
