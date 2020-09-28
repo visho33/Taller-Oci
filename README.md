@@ -1,5 +1,5 @@
-# IIC2552 - Taller de Programación Avanzada
-## 2019-1
+# IIC2552 - Taller de Programación Olimpiada Chilena de Informática
+## 2020
 
 # Índice
 * [Introducción](#introducci%C3%B3n)
