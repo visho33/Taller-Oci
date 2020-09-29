@@ -28,7 +28,6 @@ Clases: Por definir
 * Semana 8: 
 * Semana 9: 
 * Semana 10: 
-* Semana 11: 
 
 # Estoy pegad@, no sé resolver un problema, no se me ocurre, no sé implementarlo, ¿qué puedo hacer?
 En programación competitiva es normal encontrarse con problemas fuera de nuestra zona de comfort, problemas que nos superan, que nos frustran y que inclusive llegan hasta deprimirnos. Pero recuerda, como todo en la vida, [nunca te rindas](https://www.youtube.com/watch?v=NK3swvwCNHM). Para esos programadores y programadoras desamparad@s hay buenas noticias: ¡existen muchas formas de recibir ayuda!
