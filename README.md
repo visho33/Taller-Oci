@@ -76,7 +76,7 @@ __________________________________________
 
 ### Busqueda Binaria:
  * Ideas Generales: https://www.youtube.com/watch?v=HmUpRHn31FU
- * Codigo: 
+ * Codigo: https://github.com/visho33/Taller-Oci/blob/master/Algoritmos/BusquedaBinaria.cpp
  
 ### Recursividad:
  * Ideas Generales:
@@ -87,17 +87,17 @@ __________________________________________
  * ¿Como representar un grafo?: https://es.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs
  * BFS
     Ideas Generales:
-    Codigo: 
+    Codigo: https://github.com/visho33/Taller-Oci/blob/master/Algoritmos/BFS.cpp
  * DFS
     Ideas Generales:
-    Codigo:
+    Codigo: https://github.com/visho33/Taller-Oci/blob/master/Algoritmos/DFS.cpp
  * Dijkstra
    Ideas Generales: 
    Codigo:
   
 ### Programación Dinamica:
  * Ideas Generales:
- * Codigo: 
+ * Codigo KnapsackProblem: https://github.com/visho33/Taller-Oci/blob/master/Algoritmos/KnapsackProblem.cpp 
  
 ### Matemáticas:
  * Aritmetica Modular: https://www.youtube.com/watch?v=hV2WWVEWwNo
