@@ -51,6 +51,10 @@ _________________________________
 
 # Recursos para Consultar
 
+Antes de consultar los recursos recuerda que no es necesario que sepas todo esto para el día de la competencia, es posible que clasifiques sabiendo solo lo básico si sabes usarlo bien (muchos fuimos a nuestra primera competencia sin saber la mayoría de las cosas que aquí te presento).
+
+Dejo este material por si alguien tiene muchas ganas de aprender, para que pueda seguir. Recuerda que cada persona va a su propio ritmo, y al ritmo al que estas aprendiendo tu es el indicado para ti :D
+
 ### General
 
 * Libro excelente con el que yo aprendí: https://cses.fi/book/book.pdf
