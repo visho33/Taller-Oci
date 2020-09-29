@@ -72,7 +72,7 @@ __________________________________________
 ## Material para Temas Específicos
 
 ### Busqueda Binaria:
- * Ideas Generales: 
+ * Ideas Generales: https://www.youtube.com/watch?v=HmUpRHn31FU
  * Codigo: 
  
 ### Recursividad:
@@ -80,15 +80,15 @@ __________________________________________
  * Codigo de calculo de factoriales:
 
 ### Grafos:
- * ¿Que es un grafo?: 
- * ¿Como representar un grafo?: 
- * BFS:
+ * ¿Que es un grafo?: https://www.youtube.com/watch?v=wKeg6tOG7qI
+ * ¿Como representar un grafo?: https://es.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs
+ * BFS
     Ideas Generales:
     Codigo:
- * DFS:
+ * DFS
     Ideas Generales:
     Codigo:
- * Dijkstra:
+ * Dijkstra
    Ideas Generales: 
    Codigo:
   
