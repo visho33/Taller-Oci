@@ -53,7 +53,7 @@ _________________________________
 
 Antes de consultar los recursos recuerda que no es necesario que sepas todo esto para el día de la competencia, es posible que clasifiques sabiendo solo lo básico si sabes usarlo bien (muchos fuimos a nuestra primera competencia sin saber la mayoría de las cosas que aquí te presento).
 
-Dejo este material por si alguien tiene muchas ganas de aprender, para que pueda seguir. Recuerda que cada persona va a su propio ritmo, y al ritmo al que estas aprendiendo tu es el indicado para ti :D
+Dejo este material por si alguien tiene muchas ganas de aprender, para que pueda seguir. Recuerda que cada persona va a su propio ritmo, y cada persona se detiene más o menos a reflexionar en cada tema, así que no importa si no conoces TODOS los algoritmos e ideas para la competencia, lo estas haciendo bien :D
 
 ### General
 
