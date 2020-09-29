@@ -58,7 +58,7 @@ Dejo este material por si alguien tiene muchas ganas de aprender, para que pueda
 ### General
 
 * Libro excelente con el que yo aprendí: https://cses.fi/book/book.pdf
-* Libro también excelente y en español: 
+* Libro también excelente y en español: https://omegaup.com/img/libropre3.pdf
 * Canal de youTube de la comunidad chilena progcomp: https://www.youtube.com/c/Programaci%C3%B3nCompetitivaCL/featured
 * Página de programación competitiva con muchos problemas:https://codeforces.com/
 * Problem-set con muchos problemas: https://cses.fi/problemset/
