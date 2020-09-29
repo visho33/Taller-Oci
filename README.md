@@ -97,4 +97,6 @@ __________________________________________
  * Codigo: 
  
 ### Matemáticas:
- *
+ * Aritmetica Modular: 
+ * Operaciones logicas (and/or): 
+ * Suma desde 1 hasta n: 
