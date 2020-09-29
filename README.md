@@ -10,24 +10,24 @@ Sin embargo, las habilidades que adquirirás en este taller van mucho más allá
 
 # Información Básica
 
-Discord:
+Discord: https://discord.gg/JXe9BQ4
 
-Whatsapp:
+Whatsapp: 
 
 Clases: Por definir
 
 # Temario tentativo del curso
 
-* Semana 1: 
-* Semana 2: 
-* Semana 3: 
+* Semana 1: Entrada, Salida y Operaciones Básicas
+* Semana 2: Bucles y Condicionales
+* Semana 3: Arreglos y Vectores
 * Semana 4: 
 * Semana 5: 
 * Semana 6: 
 * Semana 7: 
 * Semana 8: 
 * Semana 9: 
-* Semana 10: 
+* Semana 10:  
 
 # Estoy pegad@, no sé resolver un problema, no se me ocurre, no sé implementarlo, ¿qué puedo hacer?
 En programación competitiva es normal encontrarse con problemas fuera de nuestra zona de comfort, problemas que nos superan, que nos frustran y que inclusive llegan hasta deprimirnos. Pero recuerda, como todo en la vida, [nunca te rindas](https://www.youtube.com/watch?v=NK3swvwCNHM). Para esos programadores y programadoras desamparad@s hay buenas noticias: ¡existen muchas formas de recibir ayuda!
@@ -87,7 +87,7 @@ __________________________________________
  * ¿Como representar un grafo?: https://es.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs
  * BFS
     Ideas Generales:
-    Codigo:
+    Codigo: 
  * DFS
     Ideas Generales:
     Codigo:
