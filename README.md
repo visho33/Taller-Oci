@@ -71,23 +71,30 @@ _________________________________
 __________________________________________
 ## Material para Temas Específicos
 
-
 ### Busqueda Binaria:
- * General Ideas: 
-
+ * Ideas Generales: 
+ * Codigo: 
+ 
 ### Recursividad:
- *
+ * Ideas Generales:
+ * Codigo de calculo de factoriales:
 
 ### Grafos:
+ * ¿Que es un grafo?: 
+ * ¿Como representar un grafo?: 
  * BFS:
-  *
+    Ideas Generales:
+    Codigo:
  * DFS:
-  *
+    Ideas Generales:
+    Codigo:
  * Dijkstra:
-  *
+   Ideas Generales: 
+   Codigo:
   
 ### Programación Dinamica:
- *
-
+ * Ideas Generales:
+ * Codigo: 
+ 
 ### Matemáticas:
  *
