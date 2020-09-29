@@ -79,7 +79,7 @@ __________________________________________
  * Codigo: https://github.com/visho33/Taller-Oci/blob/master/Algoritmos/BusquedaBinaria.cpp
  
 ### Recursividad:
- * Ideas Generales:
+ * Ideas Generales: https://www.youtube.com/watch?v=yX5kR63Dpdw
  * Codigo de calculo de factoriales: https://github.com/visho33/Taller-Oci/blob/master/Algoritmos/Factorial.cpp
 
 ### Grafos:
@@ -96,7 +96,7 @@ __________________________________________
    Codigo:
   
 ### Programación Dinamica:
- * Ideas Generales:
+ * Ideas Generales: https://www.youtube.com/watch?v=GSphYSWiHxU
  * Codigo KnapsackProblem: https://github.com/visho33/Taller-Oci/blob/master/Algoritmos/KnapsackProblem.cpp 
  
 ### Matemáticas:
