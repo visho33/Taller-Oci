@@ -97,6 +97,6 @@ __________________________________________
  * Codigo: 
  
 ### Matemáticas:
- * Aritmetica Modular: 
- * Operaciones logicas (and/or): 
- * Suma desde 1 hasta n: 
+ * Aritmetica Modular: https://www.youtube.com/watch?v=hV2WWVEWwNo
+ * Operaciones logicas (and/or): https://www.youtube.com/watch?v=bCBhC0yJY6M
+ * Suma desde 1 hasta n: https://www.youtube.com/watch?v=XX5BDYK_xw0
