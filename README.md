@@ -80,7 +80,7 @@ __________________________________________
  
 ### Recursividad:
  * Ideas Generales:
- * Codigo de calculo de factoriales:
+ * Codigo de calculo de factoriales: https://github.com/visho33/Taller-Oci/blob/master/Algoritmos/Factorial.cpp
 
 ### Grafos:
  * ¿Que es un grafo?: https://www.youtube.com/watch?v=wKeg6tOG7qI
